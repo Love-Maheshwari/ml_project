@@ -1,1 +1,2 @@
-from src.mlprojects.config.configuration import main
+from src.mlprojects import logger 
+logger.info("This is an info message")
