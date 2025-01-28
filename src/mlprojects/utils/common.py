@@ -1,14 +1,13 @@
 import os
-# from box.exceptions import BoxValueError
+from box import ConfigBox
+from box.exceptions import BoxValueError  # Import BoxValueError
 import yaml
 from mlprojects import logger
 import json
 import joblib
 from ensure import ensure_annotations
-from box import ConfigBox
 from pathlib import Path
 from typing import Any
-
 
 
 @ensure_annotations
