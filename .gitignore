@@ -3,4 +3,5 @@ __pycache__/
 *.pyc
 *.log
 .DS_Store
-
+Project_2/Project_2.egg-info
+Project_2/Project2_env
