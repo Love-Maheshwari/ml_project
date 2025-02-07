@@ -12,7 +12,7 @@ def get_requirements(file_path:str)->List[str]:
     with open('requirements.txt','r') as file:
         requirements = file.readlines()
         requirements = [req.replace("\n", "") for req in requirements] # as reading the lines |n will be there so to handle that used replace.
-
+ 
         if HYPHEN_E_DOT in requirements:
             requirements.remove(HYPHEN_E_DOT)
             
