@@ -16,15 +16,3 @@ logging.basicConfig(
 
 if __name__ == '__main__':
     logging.info("Logging has started")
-    
-    
-    
-    
-    
-'''
-
-The issue is that the log directory is being created with the log file name, 
-which is incorrect. The log directory should be created separately, and the log file 
-should be placed inside it. Let's fix this.
-
-'''
